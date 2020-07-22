@@ -13,7 +13,7 @@ public class DateSchedule {
             String current = scanner.nextLine();
             if (stringContainsItemFromList(current, months) && stringContainsItemFromList(current, days)) {
                 String split[] = current.split(" ", 3);
-                workDates.put(split[0] + split[1], split[2].replaceAll("[0-9]", ""));
+                workDates.put(split[0] + " " +split[1], split[2].replaceAll("[0-9]", ""));
             }
             else if (stringContainsItemFromList(current, months) ){
                 String split[] = current.split(" ", 2);
