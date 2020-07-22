@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45A8D06124C7D7EF00B6F977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A8D06024C7D7EF00B6F977 /* AppDelegate.swift */; };
+		45A8D06324C7D7EF00B6F977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A8D06224C7D7EF00B6F977 /* ContentView.swift */; };
+		45A8D06524C7D7F100B6F977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A8D06424C7D7F100B6F977 /* Assets.xcassets */; };
+		45A8D06824C7D7F100B6F977 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A8D06724C7D7F100B6F977 /* Preview Assets.xcassets */; };
+		45A8D06B24C7D7F100B6F977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A8D06924C7D7F100B6F977 /* Main.storyboard */; };
+		45A8D07724C7D7F100B6F977 /* Sylli_NerdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A8D07624C7D7F100B6F977 /* Sylli_NerdsTests.swift */; };
+		45A8D08224C7D7F100B6F977 /* Sylli_NerdsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A8D08124C7D7F100B6F977 /* Sylli_NerdsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45A8D07324C7D7F100B6F977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45A8D05524C7D7EF00B6F977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A8D05C24C7D7EF00B6F977;
+			remoteInfo = "Sylli Nerds";
+		};
+		45A8D07E24C7D7F100B6F977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45A8D05524C7D7EF00B6F977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A8D05C24C7D7EF00B6F977;
+			remoteInfo = "Sylli Nerds";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45A8D05D24C7D7EF00B6F977 /* Sylli Nerds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sylli Nerds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A8D06024C7D7EF00B6F977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45A8D06224C7D7EF00B6F977 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45A8D06424C7D7F100B6F977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45A8D06724C7D7F100B6F977 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45A8D06A24C7D7F100B6F977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45A8D06C24C7D7F100B6F977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A8D06D24C7D7F100B6F977 /* Sylli_Nerds.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sylli_Nerds.entitlements; sourceTree = "<group>"; };
+		45A8D07224C7D7F100B6F977 /* Sylli NerdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sylli NerdsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A8D07624C7D7F100B6F977 /* Sylli_NerdsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sylli_NerdsTests.swift; sourceTree = "<group>"; };
+		45A8D07824C7D7F100B6F977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A8D07D24C7D7F100B6F977 /* Sylli NerdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sylli NerdsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A8D08124C7D7F100B6F977 /* Sylli_NerdsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sylli_NerdsUITests.swift; sourceTree = "<group>"; };
+		45A8D08324C7D7F100B6F977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A8D05A24C7D7EF00B6F977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A8D06F24C7D7F100B6F977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A8D07A24C7D7F100B6F977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45A8D05424C7D7EF00B6F977 = {
+			isa = PBXGroup;
+			children = (
+				45A8D05F24C7D7EF00B6F977 /* Sylli Nerds */,
+				45A8D07524C7D7F100B6F977 /* Sylli NerdsTests */,
+				45A8D08024C7D7F100B6F977 /* Sylli NerdsUITests */,
+				45A8D05E24C7D7EF00B6F977 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45A8D05E24C7D7EF00B6F977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45A8D05D24C7D7EF00B6F977 /* Sylli Nerds.app */,
+				45A8D07224C7D7F100B6F977 /* Sylli NerdsTests.xctest */,
+				45A8D07D24C7D7F100B6F977 /* Sylli NerdsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A8D05F24C7D7EF00B6F977 /* Sylli Nerds */ = {
+			isa = PBXGroup;
+			children = (
+				45A8D06024C7D7EF00B6F977 /* AppDelegate.swift */,
+				45A8D06224C7D7EF00B6F977 /* ContentView.swift */,
+				45A8D06424C7D7F100B6F977 /* Assets.xcassets */,
+				45A8D06924C7D7F100B6F977 /* Main.storyboard */,
+				45A8D06C24C7D7F100B6F977 /* Info.plist */,
+				45A8D06D24C7D7F100B6F977 /* Sylli_Nerds.entitlements */,
+				45A8D06624C7D7F100B6F977 /* Preview Content */,
+			);
+			path = "Sylli Nerds";
+			sourceTree = "<group>";
+		};
+		45A8D06624C7D7F100B6F977 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45A8D06724C7D7F100B6F977 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45A8D07524C7D7F100B6F977 /* Sylli NerdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				45A8D07624C7D7F100B6F977 /* Sylli_NerdsTests.swift */,
+				45A8D07824C7D7F100B6F977 /* Info.plist */,
+			);
+			path = "Sylli NerdsTests";
+			sourceTree = "<group>";
+		};
+		45A8D08024C7D7F100B6F977 /* Sylli NerdsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45A8D08124C7D7F100B6F977 /* Sylli_NerdsUITests.swift */,
+				45A8D08324C7D7F100B6F977 /* Info.plist */,
+			);
+			path = "Sylli NerdsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45A8D05C24C7D7EF00B6F977 /* Sylli Nerds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A8D08624C7D7F100B6F977 /* Build configuration list for PBXNativeTarget "Sylli Nerds" */;
+			buildPhases = (
+				45A8D05924C7D7EF00B6F977 /* Sources */,
+				45A8D05A24C7D7EF00B6F977 /* Frameworks */,
+				45A8D05B24C7D7EF00B6F977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sylli Nerds";
+			productName = "Sylli Nerds";
+			productReference = 45A8D05D24C7D7EF00B6F977 /* Sylli Nerds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45A8D07124C7D7F100B6F977 /* Sylli NerdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A8D08924C7D7F100B6F977 /* Build configuration list for PBXNativeTarget "Sylli NerdsTests" */;
+			buildPhases = (
+				45A8D06E24C7D7F100B6F977 /* Sources */,
+				45A8D06F24C7D7F100B6F977 /* Frameworks */,
+				45A8D07024C7D7F100B6F977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A8D07424C7D7F100B6F977 /* PBXTargetDependency */,
+			);
+			name = "Sylli NerdsTests";
+			productName = "Sylli NerdsTests";
+			productReference = 45A8D07224C7D7F100B6F977 /* Sylli NerdsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45A8D07C24C7D7F100B6F977 /* Sylli NerdsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A8D08C24C7D7F100B6F977 /* Build configuration list for PBXNativeTarget "Sylli NerdsUITests" */;
+			buildPhases = (
+				45A8D07924C7D7F100B6F977 /* Sources */,
+				45A8D07A24C7D7F100B6F977 /* Frameworks */,
+				45A8D07B24C7D7F100B6F977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A8D07F24C7D7F100B6F977 /* PBXTargetDependency */,
+			);
+			name = "Sylli NerdsUITests";
+			productName = "Sylli NerdsUITests";
+			productReference = 45A8D07D24C7D7F100B6F977 /* Sylli NerdsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45A8D05524C7D7EF00B6F977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ryan Garland";
+				TargetAttributes = {
+					45A8D05C24C7D7EF00B6F977 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					45A8D07124C7D7F100B6F977 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 45A8D05C24C7D7EF00B6F977;
+					};
+					45A8D07C24C7D7F100B6F977 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 45A8D05C24C7D7EF00B6F977;
+					};
+				};
+			};
+			buildConfigurationList = 45A8D05824C7D7EF00B6F977 /* Build configuration list for PBXProject "Sylli Nerds" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45A8D05424C7D7EF00B6F977;
+			productRefGroup = 45A8D05E24C7D7EF00B6F977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45A8D05C24C7D7EF00B6F977 /* Sylli Nerds */,
+				45A8D07124C7D7F100B6F977 /* Sylli NerdsTests */,
+				45A8D07C24C7D7F100B6F977 /* Sylli NerdsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45A8D05B24C7D7EF00B6F977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A8D06B24C7D7F100B6F977 /* Main.storyboard in Resources */,
+				45A8D06824C7D7F100B6F977 /* Preview Assets.xcassets in Resources */,
+				45A8D06524C7D7F100B6F977 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A8D07024C7D7F100B6F977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A8D07B24C7D7F100B6F977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A8D05924C7D7EF00B6F977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A8D06324C7D7EF00B6F977 /* ContentView.swift in Sources */,
+				45A8D06124C7D7EF00B6F977 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A8D06E24C7D7F100B6F977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A8D07724C7D7F100B6F977 /* Sylli_NerdsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A8D07924C7D7F100B6F977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A8D08224C7D7F100B6F977 /* Sylli_NerdsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45A8D07424C7D7F100B6F977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A8D05C24C7D7EF00B6F977 /* Sylli Nerds */;
+			targetProxy = 45A8D07324C7D7F100B6F977 /* PBXContainerItemProxy */;
+		};
+		45A8D07F24C7D7F100B6F977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A8D05C24C7D7EF00B6F977 /* Sylli Nerds */;
+			targetProxy = 45A8D07E24C7D7F100B6F977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45A8D06924C7D7F100B6F977 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A8D06A24C7D7F100B6F977 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45A8D08424C7D7F100B6F977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45A8D08524C7D7F100B6F977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		45A8D08724C7D7F100B6F977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sylli Nerds/Sylli_Nerds.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Sylli Nerds/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sylli Nerds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "Something.Sylli-Nerds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		45A8D08824C7D7F100B6F977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sylli Nerds/Sylli_Nerds.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Sylli Nerds/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sylli Nerds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "Something.Sylli-Nerds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		45A8D08A24C7D7F100B6F977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sylli NerdsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "Something.Sylli-NerdsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sylli Nerds.app/Contents/MacOS/Sylli Nerds";
+			};
+			name = Debug;
+		};
+		45A8D08B24C7D7F100B6F977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sylli NerdsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "Something.Sylli-NerdsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sylli Nerds.app/Contents/MacOS/Sylli Nerds";
+			};
+			name = Release;
+		};
+		45A8D08D24C7D7F100B6F977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sylli NerdsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Something.Sylli-NerdsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Sylli Nerds";
+			};
+			name = Debug;
+		};
+		45A8D08E24C7D7F100B6F977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Sylli NerdsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Something.Sylli-NerdsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Sylli Nerds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45A8D05824C7D7EF00B6F977 /* Build configuration list for PBXProject "Sylli Nerds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A8D08424C7D7F100B6F977 /* Debug */,
+				45A8D08524C7D7F100B6F977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A8D08624C7D7F100B6F977 /* Build configuration list for PBXNativeTarget "Sylli Nerds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A8D08724C7D7F100B6F977 /* Debug */,
+				45A8D08824C7D7F100B6F977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A8D08924C7D7F100B6F977 /* Build configuration list for PBXNativeTarget "Sylli NerdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A8D08A24C7D7F100B6F977 /* Debug */,
+				45A8D08B24C7D7F100B6F977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A8D08C24C7D7F100B6F977 /* Build configuration list for PBXNativeTarget "Sylli NerdsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A8D08D24C7D7F100B6F977 /* Debug */,
+				45A8D08E24C7D7F100B6F977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45A8D05524C7D7EF00B6F977 /* Project object */;
+}
